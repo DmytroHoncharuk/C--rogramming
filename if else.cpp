@@ -1,7 +1,8 @@
 #include <iostream>
+#include<math.h>
 using namespace std;
 
-/*int main()
+int main()
 {
 	int n=1, orientation, count;
 	char a;
@@ -26,25 +27,6 @@ using namespace std;
 		}
 	default:
 		break;
-	}*/
+	}
 
-int main()
-{
-	int min, max;
-	int sum{};
-	cout << "Write minimum number of the range" << endl;
-	cin >> min;
-	cout << "Write maximum number of the range" << endl;
-	cin >> max;
-	do
-	{
-		if (min%2!=0)
-		{
-			sum += min;
-			min++;
-		}
-	} while (min < max);
-
-	
-	
 }
